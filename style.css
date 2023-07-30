@@ -158,7 +158,15 @@ main section {
 }
 .social-links a{
   margin-right: 25px;
+ 
+
 }
+.social-links {
+
+
+  text-align: center;
+}
+
 .footer-column{
   width: 50%;
 }
