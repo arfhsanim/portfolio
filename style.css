@@ -1,8 +1,11 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
-.header{
-    background-color: antiquewhite;
+.header {
+  background-color: rgb(252, 242, 228);
+  background-image: url(images/net2.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .primary-color {
   color: #fd6e0a;
@@ -13,8 +16,8 @@ body {
   border: 0;
   color: white;
   font-size: 20px;
-  font-weight: 700;
-  padding: 15px;
+  font-weight: 600;
+  padding: 12px;
 }
 nav {
   display: flex;
@@ -33,7 +36,6 @@ nav {
 nav > ul {
   display: flex;
   align-items: center;
-  
 }
 nav li {
   list-style: none;
@@ -43,12 +45,48 @@ nav a {
   text-decoration: none;
   color: #474747;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
-    display: flex;
-    align-items: center;
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.banner .front-image{
-    width: 400px;
+.banner-content {
+  max-width: 500px;
+}
+.banner .front-image {
+  width: 500px;
+}
+.banner-greeting {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
+}
+.banner-title {
+  font-size: 85px;
+  font-weight: 700px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.banner-description {
+  width: 400px;
+}
+/* main section */
 
+.about {
+  padding: 130px;
+  background-color: antiquewhite;
+  margin: 130px 0px;
+}
+.section-title {
+  color: black;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section-description{
+color: #757575;
 }
