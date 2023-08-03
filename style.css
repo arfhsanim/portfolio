@@ -3,9 +3,9 @@ body {
 }
 .header {
   background-color: rgb(252, 242, 228);
-  background-image: url(images/net2.png);
+  background-image: url(images/net2.png),url(images/developer.png);
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right,top left;
 }
 .primary-color {
   color: #fd6e0a;
@@ -179,4 +179,19 @@ main section {
   color: #757575;
  border: 0;
  width: 100%;
+}
+.hide{
+  display: none;
+}
+@media screen and (max-width:576px) {
+  .skill-container , .resume-container{
+    flex-direction: column;
+   
+  } 
+  #what-i-do{
+      padding: 20px;
+    }
+    body{
+      align-items: center;
+    }
 }
