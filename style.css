@@ -1,11 +1,13 @@
 body {
   font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 .header {
   background-color: rgb(252, 242, 228);
-  background-image: url(images/net2.png),url(images/developer.png);
+  background-image: url(images/net2.png), url(images/developer.png);
   background-repeat: no-repeat;
-  background-position: bottom right,top left;
+  background-position: bottom right, top left;
 }
 .primary-color {
   color: #fd6e0a;
@@ -19,6 +21,7 @@ body {
   font-weight: 600;
   padding: 12px;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -97,7 +100,6 @@ main section {
   color: #757575;
   text-align: center;
   font-family: Open Sans;
-  font-size: 18px;
 }
 .about-info-container {
   display: flex;
@@ -135,63 +137,127 @@ main section {
 .resume-item-description {
   color: #8e8c8c;
 }
-.resume-item-title{
+.resume-item-title {
   font-weight: 700px;
   font-size: 25px;
   color: #696969;
 }
-.resume-container hr{
-  margin: 30 px ;
+.resume-container hr {
+  margin: 30 px;
 }
-.download-cv{
+.download-cv {
   text-align: center;
   margin-top: 50px;
-  
 }
 /* footer */
-.footer-section{
+.footer-section {
   display: flex;
-  gap :100px;
-  background-color: #FFF8F3;
-  margin-top: 100px ;
+  gap: 100px;
+  background-color: #fff8f3;
+  margin-top: 100px;
   padding: 130px 200px;
 }
-.social-links a{
+.social-links a {
   margin-right: 25px;
- 
-
 }
 .social-links {
-
-
   text-align: center;
 }
 
-.footer-column{
+.footer-column {
   width: 50%;
 }
-.contact input[type="email"],.contact input[type="text"],textarea{
+.contact input[type="email"],
+.contact input[type="text"],
+textarea {
   display: block;
   margin-bottom: 25px;
   font-size: 15px;
-  padding: 18px 35px;
+  padding: 18px 5px;
   border-radius: 5px;
   color: #757575;
- border: 0;
- width: 100%;
+  border: 0;
+  width: 100%;
 }
-.hide{
-  display: none;
-}
-@media screen and (max-width:576px) {
-  .skill-container , .resume-container{
+
+@media screen and (max-width: 576px) {
+  .hide {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+
+  .skill-container,
+  .resume-container {
     flex-direction: column;
-   
-  } 
-  #what-i-do{
-      padding: 20px;
-    }
-    body{
-      align-items: center;
-    }
+  }
+  #what-i-do {
+    padding: 20px;
+  }
+  body {
+    align-items: center;
+  }
+  .footer-section {
+    padding: 10px;
+    display: block;
+    justify-items: center;
+  }
+  .footer-column {
+    width: auto;
+  }
+  .about-info-container {
+    display: block;
+  }
+  .about {
+    width: auto;
+    padding: 10px;
+  }
+  .about-info {
+    margin-top: 10px;
+  }
+  .section-description {
+    width: auto;
+  }
+  .submit {
+    text-align: center;
+  }
+  .banner-title {
+    font-size: 60px;
+  }
+
+  .banner-description {
+    width: 200px;
+    text-align: center;
+  }
+  .button-primary {
+    text-align: center;
+    margin-top: 2px;
+    margin-right: 0;
+  }
+  nav {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .skill {
+    margin: 5px;
+  }
+  .resume-container {
+    margin: 5px;
+  }
+  .resume-item- {
+    margin-top: 20px;
+  }
+  .section-title{
+    margin-bottom: 20px;
+  }
+  ul {
+   justify-content: center;
+
+  }
 }
