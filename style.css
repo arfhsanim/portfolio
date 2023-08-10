@@ -175,6 +175,10 @@ main section {
 }
 .social-links {
   text-align: center;
+  margin-top: 20px;
+}
+.resume-item-institute{
+  margin-top: 10px;
 }
 
 .footer-column {
@@ -200,7 +204,10 @@ textarea {
   .hamburger {
     display: block;
   }
-
+.resume-item-description{
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
   .skill-container,
   .resume-container {
     flex-direction: column;
@@ -266,11 +273,16 @@ textarea {
   .resume-item- {
     margin-top: 20px;
   }
+
   .section-title{
     margin-bottom: 20px;
   }
   ul {
    justify-content: center;
 
+  }
+  .social-links {
+    text-align: center;
+    margin-top: 20px;
   }
 }
